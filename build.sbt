@@ -7,9 +7,9 @@ scalaVersion := "2.13.0"
 resolvers += Resolver.jcenterRepo
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.0.8",
-  "org.scalacheck" %% "scalacheck" % "1.14.0",
-  "org.mockito" % "mockito-core" % "3.0.0"
+  "org.scalatest" %% "scalatest" % "3.0.8" % "test",
+  "org.scalacheck" %% "scalacheck" % "1.14.0" % "test",
+  "org.mockito" % "mockito-core" % "3.0.0" % "test"
 )
 
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
